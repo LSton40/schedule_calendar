@@ -8,12 +8,12 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
-    /> -->
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -28,98 +28,75 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-
-
-    
       <!-- Timeblocks go here -->
-      <div class="">
+    <main>
+
       <p class=""></p>
 
-
-      <!-- <section class="time-blocks"> -->
-      <!-- <div> -->
-        <div class="time-block">
-        <form class="row">
-          
-          <p class="hour" id="9">9am</p>
-          <textarea name="Schedule" id="hank" cols="50" rows="3" class="description"></textarea>
-          <button class="saveBtn" id="larry">Save</button>
-          
-        </form>
-      </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="10">10am</div>
-          <textarea name="" id="" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <p class="hour col-1" id="9">9am</p>
+          <textarea name="Schedule 9am" class="description col-10" id="9amText"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="11">11am</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="10">10am</div>
+          <textarea name="Schedule 10am" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="12">12pm</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="11">11am</div>
+          <textarea name="Schedule 11am" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="13">1pm</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="12">12pm</div>
+          <textarea name="Schedule 12pm" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="14">2pm</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="13">1pm</div>
+          <textarea name="Schedule 1pm" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="15">3pm</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="14">2pm</div>
+          <textarea name="Schedule 2pm" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-      
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="16">4pm</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="15">3pm</div>
+          <textarea name="Schedule 3pm" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-
       <div class="time-block">
         <form class="row">
-          <div class="hour" id="17">5pm</div>
-          <textarea name="" id="" cols="30" rows="3" class="description"></textarea>
-          <button class="saveBtn">Save</button>
+          <div class="hour col-1" id="16">4pm</div>
+          <textarea name="Schedule 4pm" class="description col-10"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
         </form>
       </div>
-       
-
-   <!-- </div>
-  </section> -->
-      
-
-
-
-    </div>
+      <div class="time-block">
+        <form class="row">
+          <div class="hour col-1" id="17">5pm</div>
+          <textarea name="Schedule 5pm" class="description col-10" id="5pmText"></textarea>
+          <button class="saveBtn col-1"><i class="fas fa-save"></i></button>
+        </form>
+      </div>     
+  </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

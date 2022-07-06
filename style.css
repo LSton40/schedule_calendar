@@ -21,26 +21,17 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-/* .time-blocks {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-} */
-
-/* .time-blocks {
-  display: flex;
-} */
+main {
+  padding: 0 5%;
+}
 
 .description{
   white-space: pre-wrap;
 }
 
-
 .time-block{
   text-align: center;
   border-radius: 15px;
-  /* flex-grow: 1; */
 }
 
 .row {
@@ -78,7 +69,7 @@ textarea {
   color: white;
 }
 
-.saveBtn:hover {
+.saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
