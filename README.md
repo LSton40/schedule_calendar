@@ -18,3 +18,5 @@ A loop and button function provide the affordances to save the data in the text 
 https://lston40.github.io/schedule_calendar/
 
 ##Screenshot
+![lston40 github io_schedule_calendar_](https://user-images.githubusercontent.com/103286445/177675148-bda1a017-706b-4b85-bb69-d7f7c391ff34.png)
+
